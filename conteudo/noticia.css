@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* CSS Document */
+
 :root {
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
@@ -12,31 +12,17 @@
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'Adroid', cursive;
 }
+
 * {
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: var(--fonte-padrao);
     background-color: var(--cor4);
 }
-header {
-    max-width: 600px;
-    margin: 0px auto;
-    background-color: var(--cor3);
-    color: var(--cor0);
-    text-align: center;
-    font-size: 25px;
-    font-family: var(--fonte-padrao);
-    padding: 20px;
-    border: 5px solid var(--cor2);
-}
-ul,li {
-    list-style: none;
-}
 main {
-    max-width: 600px;
+    max-width: 670px;
     margin: 20px auto;
     background-color: var(--cor0);
     color: var(--cor4);
@@ -45,4 +31,11 @@ main {
     font-family: var(--fonte-padrao);
     padding: 20px;
     border: 5px solid var(--cor2);
+}
+section > picture {
+    float: center;
+    margin: -38px;
+    font-size: 18px;
+    text-align: center;
+   
 }
